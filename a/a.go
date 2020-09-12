@@ -1,7 +1,7 @@
 package a
 
-import "fmt";
+import "fmt"
 
-func printA {
+func printA() {
 	fmt.Println("Im function in package a")
 }
