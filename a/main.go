@@ -1,8 +1,11 @@
-package github.com/nic0nn/gomodules/a
+package main
 
-import "fmt"
+import "fmt";
 
-func printA() {
-	fmt.Println("Im package one");
+func main() {
+	fmt.Println("Im package a")
 }
 
+func printA {
+	fmt.Println("Im function in package a")
+}
